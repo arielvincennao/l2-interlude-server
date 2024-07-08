@@ -1,0 +1,29 @@
+Archivos L2Java
+
+//////  Inicializacion
+
+= Instalar Java JDK
+
+
+- Instalar https://www.oracle.com/ar/java/technologies/downloads/
+
+- En el sistema, se requiere que la variable %JAVA_HOME% sea reconocida globalmente:
+    Para chequear su existencia: Abrir cmd y ejecutar 'echo %JAVA_HOME%'.
+
+    Si la variable no se encuentra:
+    CMD - 'where java'
+    Copiar la ruta que contiene el .exe
+    Dirigirse a:
+    Panel de Control - Sistema y Seguridad - Sistema - Configuracion Avanzada Del Sistema - Variables de entorno
+    Buscar JAVA_HOME. El valor sera la ruta del .exe ejemplo: 'C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot'.
+    Validar que en Path, exista la variable de entorno '%JAVA_HOME%\bin'.
+    Validar en cmd la existencia de la variable con 'echo %JAVA_HOME%'
+
+= Instalar XAMPP
+
+- Abrir XAMPP. Ejecutar Apache y mySQL
+- En localhost/phpmyadmin/ , Usuarios y revisar los permisos. (probablemente usar root)
+
+
+    
+    
